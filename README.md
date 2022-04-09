@@ -1,8 +1,8 @@
 # one-click activate your win10/11 or MS office
 # 一键激活window 10/11
 
-paste below command line in powershell then press enter. then follow the prompt to activate your win10/11 or office \
-将下面整行命令复制到powershell窗口按回车键，会自动下载并运行激活脚本，按激活窗口操作即可激活win10/11或者windows
+paste below command line in powershell then press enter. then follow the prompt to activate your win10/11 or MS office \
+将下面整行命令复制到powershell窗口按回车键，会自动下载并运行激活脚本，按激活窗口操作即可激活win10/11或MS office
 ```PowerShell 
 Invoke-WebRequest "https://raw.githubusercontent.com/hansyao/win_activate/main/win_activate.ps1" | .\win_activate.ps1
 ```
