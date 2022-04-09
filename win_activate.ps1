@@ -3,7 +3,7 @@ Write-Host "author: Hans Yao"
 Write-Host "email: hansyow@gmail.com"
 Write-Host ""
 
-$remoteUrl = "https://lrdtt.site/microsoft-activation-scripts.zip"
+$remoteUrl = "https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip"
 $ZipFile = $env:TEMP + "\microsoft-activation-scripts.zip"
 $Destination = ".\"
 $activateScript = ".\microsoft-activation-scripts-master\MAS\All-In-One-Version\MAS_1.5_AIO_CRC32_21D20776.cmd"
